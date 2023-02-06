@@ -30,7 +30,7 @@ const connectDatabase = require("./src/database/db")
 
 //Propriedades do servidor
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3500;
 
 
 app.set('view engine', 'ejs');
